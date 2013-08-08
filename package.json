@@ -1,0 +1,42 @@
+{
+  "name": "grunt-webconcat",
+  "description": "Grunt plugin to concatenate remote files and store them locally",
+  "version": "0.2.0",
+  "homepage": "",
+  "private": true,
+  "author": {
+    "name": "iVantage Dev",
+    "email": "developers@ivantagehealth.com",
+    "url": "http://www.ivantagehealth.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrussell-ivantage/grunt-webconcat.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-clean": "~0.4.0a",
+    "grunt-contrib-nodeunit": "~0.1.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "async": "~0.1.22",
+    "request": "~2.12.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
